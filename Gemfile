@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.0'
 gem 'faker'
 gem 'fog-aws'
 gem 'figaro'
