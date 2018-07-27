@@ -5,6 +5,8 @@ ruby '2.3.3'
 
 gem 'carrierwave'
 gem 'faker'
+gem 'fog-aws'
+gem 'figaro'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use Puma as the app server
